@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
+import { type DocumentHead } from '@builder.io/qwik-city';
+import { Image } from '~/components/optimized-images/component';
 
 import Counter from '~/components/starter/counter/counter';
 import Hero from '~/components/starter/hero/hero';
@@ -9,6 +10,7 @@ import Starter from '~/components/starter/next-steps/next-steps';
 export default component$(() => {
   return (
     <>
+      <Image src='https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*' height={300} />
       <Hero />
       <Starter />
 

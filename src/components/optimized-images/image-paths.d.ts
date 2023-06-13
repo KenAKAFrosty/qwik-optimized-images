@@ -1,0 +1,1 @@
+export type ImagePath = | "/cat.jpg"| "/images/cat2.jpg"| "/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg"
